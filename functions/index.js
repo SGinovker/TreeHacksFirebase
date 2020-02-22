@@ -4,7 +4,7 @@ const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 admin.initializeApp();
 
-var apikey = "hhdEY5uXfF0oMAtkWBTxzLhvl0KwlQEG";
+var apikey = "HIDDEN";
 var url = "http://www.mapquestapi.com/traffic/v2/incidents?key=" + apikey;
 var upperboundx = 37.893120; 
 var upperboundy = -122.800400;
